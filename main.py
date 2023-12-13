@@ -58,7 +58,7 @@ texto = Label(janela, text="Clique no botão para exibir as informações ")
 texto.grid(column=0, row=0)
 botao = Button(janela, text="informaçoes da Assistente", command=assistente.executar_tarefas)
 botao.grid(column=0, row=1)
-texto_info = Label(janela, print(assistene.executar_tarefas))
+texto_info = Label(janela, print(assistente.executar_tarefas))
 texto_info.grid(column=0, row=2)
 
 janela.mainloop()
